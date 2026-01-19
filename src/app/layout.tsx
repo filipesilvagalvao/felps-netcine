@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: `${baseUrl}/netcine-thumb.png`,
+        url: `${baseUrl}/netcine-thumb-orange.png`,
         width: 512,
         height: 512,
         alt: "netcine logo",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     canonical: baseUrl,
   },
   icons: {
-    icon: "/netcine-icon.ico"
+    icon: "/netcine-icon-orange.ico"
   }
 };
 
@@ -36,9 +36,9 @@ export default function RootLayout({
   return (
     <html lang="pr-br">
       <head>
-        <link rel="icon" type="image/png" sizes="48x48" href="/netcine-icon.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/netcine-icon-orange.png" />
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-NBPCJYY28V"
+          src="https://www.googletagmanager.com/gtag/js?id=G-PKJCG25JRS"
           strategy="afterInteractive"
         />
 
@@ -47,7 +47,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-NBPCJYY28V');
+            gtag('config', 'G-PKJCG25JRS');
           `}
         </Script>
       </head>

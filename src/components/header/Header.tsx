@@ -22,7 +22,7 @@ function Header() {
 
                 <h1 className={styles.header__logo}>
 
-                    <Link href="/"><img src="/netcine-logo.png" alt="logo" />
+                    <Link href="/"><img src="/netcine-logo-orange.png" alt="logo" />
                     </Link>
                 </h1>
 
