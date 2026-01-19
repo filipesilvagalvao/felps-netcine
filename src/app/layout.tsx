@@ -8,15 +8,15 @@ import Script from 'next/script'
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL!
 
 export const metadata: Metadata = {
-  title: "Video Cinix",
-  description: "Descubra o melhor do entrenimento de filmes e séries, faça sua lista de favoritos e maratone.",
+  title: "NetCine",
+  description: "Aqui você encontra o melhor catálogo de filmes e séries totalmente de graça, explore o melhor do entretenimento no NetCine.",
   openGraph: {
     images: [
       {
-        url: `${baseUrl}/video-cinix.png`,
+        url: `${baseUrl}/netcine-thumb.png`,
         width: 512,
         height: 512,
-        alt: "video cinix",
+        alt: "netcine logo",
       },
     ],
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     canonical: baseUrl,
   },
   icons: {
-    icon: "/botao-play.png"
+    icon: "/netcine-icon.ico"
   }
 };
 
@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="pr-br">
       <head>
-        <link rel="icon" type="image/png" sizes="48x48" href="/botao-play.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/netcine-icon.png" />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-NBPCJYY28V"
           strategy="afterInteractive"

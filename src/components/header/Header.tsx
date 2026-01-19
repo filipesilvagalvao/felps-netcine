@@ -22,7 +22,7 @@ function Header() {
 
                 <h1 className={styles.header__logo}>
 
-                    <Link href="/"><i className="fa-regular fa-circle-play"></i>Video <span>Cinix</span>
+                    <Link href="/"><img src="/netcine-logo.png" alt="logo" />
                     </Link>
                 </h1>
 

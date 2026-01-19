@@ -24,6 +24,15 @@ function Carousel() {
     return (
         <section className={styles.carousel}>
             <div className={styles.carousel__container} ref={refCarousel}>
+                <Card__carousel
+                    cover="https://image.tmdb.org/t/p/w1280/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg"
+                    name="Avatar: Fogo e Cinzas"
+                    average={7.4}
+                    genders={["Ficção científica", "Aventura", "Fantasia"]}
+                    year={2025}
+                    overview="Após a devastadora guerra contra a RDA e a perda de seu filho mais velho, Jake Sully e Neytiri enfrentam uma nova ameaça em Pandora: o Povo das Cinzas, uma tribo Na'vi violenta e sedenta por poder, liderada pelo implacável Varang. A família de Jake deve lutar por sua sobrevivência e pelo futuro de Pandora em um conflito que os leva aos seus limites emocionais e físicos."
+                    link="/filmes/83533/avatar-fogo-e-cinza"
+                />
 
                 <Card__carousel
                     cover="https://image.tmdb.org/t/p/w1280/hoN7SfYiUlEh2bWJIJFvMjOAKQZ.jpg"
@@ -34,15 +43,7 @@ function Carousel() {
                     overview="Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina."
                     link="/series/66732/stranger-things"
                 />
-                <Card__carousel
-                    cover="https://image.tmdb.org/t/p/w1280/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg"
-                    name="Avatar: Fogo e Cinzas"
-                    average={7.4}
-                    genders={["Ficção científica", "Aventura", "Fantasia"]}
-                    year={2025}
-                    overview="Após a devastadora guerra contra a RDA e a perda de seu filho mais velho, Jake Sully e Neytiri enfrentam uma nova ameaça em Pandora: o Povo das Cinzas, uma tribo Na'vi violenta e sedenta por poder, liderada pelo implacável Varang. A família de Jake deve lutar por sua sobrevivência e pelo futuro de Pandora em um conflito que os leva aos seus limites emocionais e físicos."
-                    link="/filmes/83533/avatar-fogo-e-cinza"
-                />
+
 
                 <Card__carousel
                     cover="https://image.tmdb.org/t/p/w1280/7nfpkR9XsQ1lBNCXSSHxGV7Dkxe.jpg"
