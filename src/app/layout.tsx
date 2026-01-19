@@ -9,7 +9,7 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL!
 
 export const metadata: Metadata = {
   title: "NetCine",
-  description: "Aqui você encontra o melhor catálogo de filmes e séries totalmente de graça, explore o melhor do entretenimento no NetCine.",
+  description: "Aqui você encontra o melhor catálogo de filmes e séries totalmente de graça, explore o melhor do entretenimento no NetCine!",
   openGraph: {
     images: [
       {
