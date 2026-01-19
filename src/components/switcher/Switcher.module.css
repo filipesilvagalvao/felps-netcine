@@ -1,0 +1,30 @@
+.switcher__content {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 15px;
+}
+
+.switcher__input {
+    display: none;
+}
+
+.switcher__input:checked+.switcher__label {
+    background-color: var(--main-base-color);
+    color: var(--text-color-4);
+    box-shadow: #3a3a3a 0 0 15px;
+    opacity: 1;
+}
+
+.switcher__label {
+    display: inline-block;
+    padding: 8px 0;
+    width: min(200px, 100%);
+    border: 1px solid var(--main-base-color);
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
